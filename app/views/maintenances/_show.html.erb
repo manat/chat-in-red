@@ -1,0 +1,6 @@
+<%= turbo_frame_tag :maintenances do %>
+  <%= button_to maintenances_path, { class: "btn btn-primary" } do %>
+    <%= maintenance.state %>
+    <%= hidden_field_tag :state, maintenance.state %>
+  <% end %>
+<% end %>

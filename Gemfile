@@ -4,6 +4,7 @@ ruby "3.0.2"
 
 gem "barnes", "~> 0.0.8"
 gem "bootsnap", ">= 1.4.4", require: false
+gem 'hotwire-rails'
 gem "image_processing", "~> 1.12"
 gem "lograge", "~> 0.11.2"
 gem "pg", "~> 1.1"
@@ -15,7 +16,6 @@ gem "sass-rails", ">= 6"
 gem "sentry-raven", "~> 3.1"
 gem "sidekiq", "~> 6.1"
 gem "sidekiq-cron", "~> 1.2"
-gem "turbolinks", "~> 5"
 gem "tzinfo-data", platforms: %i[mingw mswin x64_mingw jruby]
 gem "webpacker", "~> 5.0"
 
